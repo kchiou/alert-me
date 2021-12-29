@@ -88,7 +88,7 @@ pushover('Hello world')
 
 ## Load functions
 
-Now that the [email](Email-alerts) and [push](Push-alerts) alerts have been set up, The following functions can be loaded.
+Now that the [email](#Email-alerts) and [push](#Push-alerts) alerts have been set up, The following functions can be loaded.
 
 Load the `email.status` function. Be sure to replace <ASURITE> with your ASURITE for the arguments "to", "from", and "auth".
 
@@ -122,6 +122,8 @@ push.status = function(topic=NULL,msg=NULL,user='<YOUR USER KEY>',token='<YOUR A
 	)
 }
 ```
+
+## Try it out
 
 Once the functions above have been loaded they can be run as follows.
 
